@@ -41,7 +41,7 @@
     
     <hr>
 
-    <h1>Attributes</h1>
+    <h1 style="color: #f05454">Attributes</h1>
     <p><b>Attributes</b> are properties which can change an HTML element. Attributes are written in the opening tag of
     ANY HTML element.  The most common attributes are <i>src</i>, <i>href</i>, <i>class</i>, <i>id</i>, and <i>style</i>.
     </p>
@@ -51,7 +51,8 @@
 
     <p style="color: slategrey" > This paragraph has inline CSS style which changes the font color to indigo.</p>
 
-    <p style="background-color: blueviolet">This paragraph has inline CSS style which changes the background color to coral.
+    <p style="background-color: blueviolet">This paragraph has inline CSS style which changes the background color to
+        coral.
     </p>
 
     <p style="color: blueviolet; background-color: slategrey">This paragraph has inline CSS style which changes the
@@ -63,6 +64,45 @@
 
     <p style="background-color: #008891; color: #e7e7de; font-family: 'Vladimir Script'; font-size: 36px">This paragraph
     has all four of the previous inline styles.</p>
+
+    <h1 style="color: #f05454">Images</h1>
+    <p>An <b>image element</b> is an <i>inline</i> element which inserts pictures into the document. An image element
+        is self-closing, which means it does not have a closing tag. It has one major attribute, src, which is a
+        filepath that points to the images/ location. Those filepaths can either be <b>absolute</b> or
+        <b>relative</b>.</p>
+
+        <h2>Simple Image Example</h2>
+        <img src="https://hhltmaine.org/wp-content/uploads/2019/01/Hawk-Coopers-JBe.jpg">
+
+        <h2>Image Attributes</h2>
+        <p>There are 4 attributes commonly used for images. <i>width</i> and <i>height</i> are used to resize the images.
+        <i>alt</i> allows the use of text description of images for accessibility and broken images. <i>title</i> allows
+            a hover-over text to appear.</p>
+
+        <h3>Width and Height</h3>
+        <p>The width and height can be measured in many different ways, but the more common ones are pixels and
+            percentages. Using pixels, you set the specific, precise size based on pixels.  Using percentages, you set
+            the dimensions based on a percentage of the entire page.  In either case, setting the width alone respects
+            aspect ratio, while setting both does not.</p>
+
+        <img src="https://hhltmaine.org/wp-content/uploads/2019/01/Hawk-Coopers-JBe.jpg" title="Set width and height
+        using pixles" width="150px" height="400px">
+
+        <img src="https://hhltmaine.org/wp-content/uploads/2019/01/Hawk-Coopers-JBe.jpg" title="Set width and height
+        using pixles and respecting aspect ratio" width="150px">
+
+        <img src="https://hhltmaine.org/wp-content/uploads/2019/01/Hawk-Coopers-JBe.jpg" title="Set width and height
+        using percentages" width="50%">
+
+        <h3>Alt Attribute</h3>
+        <p>Every picture should at LEAST have the alt attribute.  The alt attribute helps with screen readers for
+        visually impaired and in the cases that the image is broken.</p>
+
+        <img src="https://hhltmaine.org/wp-content/2019/01/Hawk-Coopers-JBe.jpg" width="50%">
+        <img src="https://hhltmaine.org/wp-content/uploads/2019/01/Hawk-Coopers-JBe.jpg" alt="Picture of a hawk sitting
+         on a branch of a tree" width="50%">
+        <img src="https://hhltmaine.org/wp-content/uploads/2019/01/Hawk-Coopers-JBe.jpg" title="Picture of a hawk sitting
+         on a branch of a tree" width="50%">
 
     <hr>
 
